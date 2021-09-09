@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="formStyle.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <h1>Formulario de registro</h1>
+    </section>
+    <form action="../../form-result.php" method="post" target="_blank">
+      <p class="nombre"><label>Nombre: <input type="text" name="usuario"></label></p>
+      <p class="apellido"><label>Apellidos: <input type="text" name="Apellido"></label></p>
+      <p class="adress"><label>Direccion: <input type="text" name="adress"></label></p>
+      <p class="phone"><label>Telefono: <input type="text" name="number"></label></p>
+      <p class="correo"><label>Email: <input type="email"id="email" name="email"></label></p>
+      <p class="password"><label>Constraseña: <input type="password" name="pass"></label></p>
+      <label class="checkbox1"><input type="checkbox" id="cbox1" value="first_checkbox"> Becado</label><br>
+      <section class="campoFecha">
+        <p><labelfor="start"><br><br>Fecha de nacimiento:</label></p>
+        <input type="date" id="start" name="trip-start"
+         value="2001-03-25"
+         min="1990-01-01" max="2002-12-31">
+      </section>
+      <section class="colorchoise">
+        <label for="Chcolor" class="name1"><br><br>color distintivo:</label>
+        <input type="color" id="Chcolor" name="Chcolor" value="#ff0000">
+      </section>
+        <section class="cajaDeTexto">
+          <p><br>
+          <textarea name="textarea" rows="10" cols="50">Acerca de mi</textarea>
+        </section>
+        <section class="genero">
+          <p>Genero:<br></p>
+          <input type="radio" name="female" value="female"> Femenino<br>
+          <input type="radio" name="male" value="male"> Masculino<br>
+          <input type="radio" name="other" value="other"> Otro<br>
+          </p>
+        </section>
+        <section class="carrera">
+          <p>Area:</p>
+          <select name="select">
+          <option value="value1">Derecho</option>
+          <option value="value2" selected>Ingenieria</option>
+          <option value="value3">Medicina</option>
+          </section>
+          <section class="sendit">
+            <p><br><input type="submit" value="Enviar datos"></p>
+          </section>
+
+
+
+
+    </form>
+  </body>
+</html>

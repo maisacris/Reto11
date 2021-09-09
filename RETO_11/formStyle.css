@@ -1,0 +1,78 @@
+
+form{
+  background-color: #20B2AA;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  background-color: #87CEFA;
+}
+p.nombre{
+    text-align: center;
+}
+
+p.apellido{
+    text-align: center;
+}
+
+p.adress{
+    text-align: center;
+}
+
+p.phone{
+  text-align: center;
+}
+
+p.correo{
+  text-align: center;
+}
+
+p.password{
+  text-align: center;
+}
+
+p.checkbox1{
+  text-align: center;
+}
+
+p.dateN{
+  text-align: center;
+}
+
+p.correo{
+  text-align: center;
+}
+
+.checkbox1{
+  padding: 5px 600px;
+}
+
+.campoFecha{
+
+  padding: 0px 600px;
+}
+
+.colorchoise{
+  padding: 0px 600px;
+}
+.cajaDeTexto{
+  padding: 0px 500px;
+}
+
+.genero{
+  padding: 0px 600px;
+}
+
+.carrera{
+  padding: 0px 600px;
+}
+
+footer{
+  height: 300px;
+}
+
+
+body{
+  background-color: #87CEFA;
+}

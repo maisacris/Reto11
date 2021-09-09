@@ -1,0 +1,77 @@
+
+
+/*font-family: 'Work Sans';*/
+/*font-family: 'Work Sans', sans-serif;*/
+h1{color: #A654EE;
+  font-family: 'Work Sans';
+  background-color: black;
+  padding: 10px 80px;
+  width: 1200px;
+}
+.section2{/*foto de perfil*/
+  margin: 0px;
+  padding: 20px 260px;
+  border: 0px;
+}
+.pic2{
+  padding: 0px 100px;
+}
+.bobo{
+  padding: 0px 70px;
+}
+aside.lado{
+ padding: 5px 50px;
+ height: 300px;
+ font-size: 130%;
+ font-family: 'Work Sans', sans-serif;
+ background-color: #FF7F50;
+ width: 1260px;
+
+}
+article.Formacion{
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  padding:50px 100px;
+  font-size: 110%;
+
+
+}
+article.experiencia{
+
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  padding:50px 80px;
+  font-size: 110%;
+  background-color: #210433;
+  width: 1200px;
+  height: 350px;
+
+}
+h2{/*datos personales*/
+  font-size: 110%;
+  color:white;
+  font-family: 'Work Sans';
+  background-color: black;
+  padding: 10px 80px;
+  width: 1200px;
+}
+
+.parrafo{/*parrafo de informacion principal*/
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  padding: 50px 80px;
+  background-color: black;
+  height: 400px;
+  width: 1200px;
+}
+
+article{/*caracteristicas de los articulos*/
+
+height: 420px;
+width: 1200px;
+}
+body{
+
+background-image: linear-gradient(#A654EE , #EE549C);
+
+}
