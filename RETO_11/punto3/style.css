@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(../assets/img/hotel8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+header{
+    width: 100%;
+    background-color: rgb(10, 57, 63);
+}
+header img{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header p{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.Header{
+    width: 100%;
+    background: rgb(10, 57, 63);
+}
+#btn-menu{
+    display: none;
+}
+
+.Header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+.Header label:hover {
+    cursor: pointer;
+    background: rgb(10, 57, 63);
+}
+.menu{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu a{
+    text-align: center;
+    display: block;
+    padding: 7px 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.menu a:hover{
+    background: rgb(10, 57, 63);
+}
+
+@media(max-width:768px){
+    .Header label{
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        background:rgb(10, 57, 63);
+        flex-direction: column;
+        width: 100%;
+        border-top: 1px solid rgb(10, 57, 63);
+        margin-left: -100%;
+        transition: all 0.5S;
+    }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+}
+
+.Descripcion{
+    text-align: center;
+}
+.Descripcion h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.textoDeDescripcion{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.vision h3{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.vision p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mision h3{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mision p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    width: 100%;
+    max-width: 1150%;
+    margin: auto;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tabla {
+    background:rgb(10, 57, 63);
+    width: 350px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1150%;
+    margin: auto;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tabla1 {
+    background:rgb(10, 57, 63);
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+.tabla1:hover{
+    transform: scale(1);
+}
+.tabla h3{
+    color: white;
+}
+.tabla:hover {
+    transform: scale(1.05);
+}
+.Habitaciones{
+    text-align: center;
+}
+.Habitaciones h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;    
+}
+.descripcionHabitaciones{
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Restaurante{
+    text-align: center;
+}
+.Restaurante h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.Restaurante p{
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Piscina{
+    text-align: center;
+}
+.Piscina h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.Piscina p{
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Galeria {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Galeria h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 0 15px 0;
+    color: white;
+    width: 100%;
+}
+.imagenes {
+    width: 300px;
+    margin: auto;
+}
+.imagenes img {
+    width: 100%;
+}
+.Restricciones{
+    text-align: center;
+}
+.Restricciones h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;    
+}
+.Restricciones p{
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.Contacto{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Contacto h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+.fas{
+    color: white;
+}
